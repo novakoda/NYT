@@ -72,7 +72,7 @@ article {
 }
 
 article h1, article h2, article h4,
-article p, article .date-social {
+article p, article .date-social, .yt-vid {
   max-width: 600px;
   margin: 0 auto;
 }
@@ -155,4 +155,98 @@ main h2 {
   font-weight: 700;
   font-size: 1.35rem;
   margin: 1em auto;
+}
+
+.tof {
+  width: 945px;
+  height: 738px;
+  margin: 2em auto 4em auto;
+}
+
+.tof-title-text{
+  margin: 1em 0 0.3em 0;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-height: 1.5rem;
+  font-family: nyt-cheltenham,georgia,times new roman,times,serif;
+}
+
+.tof-about-text {
+  max-width: none;
+  margin: 0 1em 0 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.125rem;
+  color: #666;
+  font-family: nyt-cheltenham-sh,georgia,times new roman,times,serif
+}
+
+.tof img {
+  margin-top: 15px;
+  height: auto;
+  width: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 228px);
+  grid-template-rows: 274px 274px;
+  position: relative;
+  bottom: 424px;
+  justify-content: space-between;
+}
+
+.grid p {
+  font-family: nyt-franklin,arial,helvetica,sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 300;
+  color: #000;
+}
+
+.grid p b {
+  font-size: 11px;
+  font-weight: 900;
+}
+
+.tof footer {
+  position: relative;
+  bottom: 561px;
+}
+
+.tof hr {
+  max-width: 4em;
+  margin: 2.2em 0 1em 0;
+}
+
+.summary-author {
+  margin-left: 0;
+  font-family: nyt-franklin,arial,helvetica,sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.yt-vid, .teles-pic {
+  margin: 2.5em auto;
+}
+
+.credit-text {
+  color: #888;
+  font-size: 14px;
+  line-height: 1.125rem;
+}
+
+.credit-text b {
+  font-weight: 500;
+  color: #666;
+  font-size: 16px;
+  margin-right: 2.5em;
+}
+
+.teles-pic {
+  max-width: 720px;
+}
+
+.teles-pic img {
+  width: 720px;
 }
