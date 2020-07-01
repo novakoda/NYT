@@ -68,4 +68,91 @@ a {
 }
 
 article {
+  padding-top: 8em;
+}
+
+article h1, article h2, article h4,
+article p, article .date-social {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.alan-pic {
+  margin: 1rem auto 3em auto;
+  max-width: 1000px;
+}
+
+.alan-pic img {
+  width: 1000px;
+}
+
+.alan-pic figcaption {
+  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  font-size: .9375rem;
+  color: #666;
+  max-width: 900px;
+}
+
+h4 {
+  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+h4 a {
+  text-decoration: underline;
+  text-decoration-color: #AAA;
+}
+
+article .date-social {
+  margin: 1.7em auto 2.3em auto;
+  display: flex;
+  justify-content: space-between;
+  flex-basis: auto;
+}
+
+.date-social h6 {
+  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  font-size: 14px;
+}
+
+.date-social li {
+  display: inline;
+  background-color: #eee;
+  border: 1px #eee solid;
+  padding: 5px;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+}
+
+.fb-logo svg {
+  width: 15px;
+  position: relative;
+  left: 4px;
+  top: 2px;
+}
+
+.share-logo svg {
+  width: 15px;
+}
+
+main p {
+  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+main h2 {
+  font-weight: 700;
+  font-size: 1.35rem;
+  margin: 1em auto;
 }
