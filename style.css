@@ -312,8 +312,54 @@ h3 {
   border-top: 1px solid #ddd;
   padding: 10px 0;
 }
+
 .after-right a {
   font-family: nyt-imperial,georgia,'times new roman',times,serif;
   font-size: 1.25rem;
   line-height: 1.875rem;
+}
+
+.foot {
+  width: 1200px;
+  margin: 2em auto 0 auto;
+}
+
+.foot header {
+  display: flex;
+  justify-content: space-between;
+  border-top: 3px double #ddd;
+  padding-top: 10px;
+  height: 2em;
+}
+
+.home {
+  font-size: 10px;
+  position: relative;
+  top: 5px;
+  color: rgb(86, 123, 149);
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+
+.foot-lists {
+  display: flex;
+  flex-direction: row;
+}
+
+.categories {
+  flex-grow: 5;
+  display: flex;
+  align-content: stretch;
+}
+
+.categories ul {
+  flex-basis: 197px;
+}
+
+.categories li {
+  margin-bottom: 10px;
+}
+
+.categories a {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 14px;
 }
